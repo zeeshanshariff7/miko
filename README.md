@@ -33,7 +33,7 @@ cumulative distance is stored in moving_cumulative_distance_list
 dictionarry is used as a dsta structure to wapoint, parent and cumulative distance for each waypoint
 /////////////////////////////////////////////////////////////////////////
 
-This plaot shows the sequnce of waypoint generated and the terminal prints out the wapoint, its parent and the cumulative distance for eac waypoint
+This plot shows the sequnce of waypoint generated and the terminal prints out the wapoint, its parent and the cumulative distance for eac waypoint
 
 ![visualization](https://user-images.githubusercontent.com/109422653/179357275-d6a1e3da-745a-41de-9e77-9a3bc992e408.png)
 
