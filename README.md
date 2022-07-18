@@ -4,7 +4,9 @@ Miko assignment
 //////////////////////////////////////////////////
 In the program the following assumtions are made
 ///////////////////////////////////////////////////////
-for the ease of progarmming the map boundaries are considered between (-10,-10) and (10,10) instead of (-1,-1) & (1,1)
+1. for the ease of progarmming the map boundaries are considered between (-10,-10) and (10,10) instead of (-1,-1) & (1,1)
+2. the robot will run for 10 steps to explore the environment(increasing the number of steps will converge to explore of entire space )
+each time the script generates a new path.
 ///////////////////////////////////////////////////////////////////////
 *functions used
 ///////////////////////////////////////////////////////////////////////
@@ -29,8 +31,10 @@ iii. then it checks for possibleStates by avoiding obstacles within the step siz
 
 cumulative distance is stored in moving_cumulative_distance_list
 dictionarry is used as a dsta structure to wapoint, parent and cumulative distance for each waypoint
+/////////////////////////////////////////////////////////////////////////
 
-
-
+This plaot shows the sequnce of waypoint generated and the terminal prints out the wapoint, its parent and the cumulative distance for eac waypoint
 
 ![visualization](https://user-images.githubusercontent.com/109422653/179357275-d6a1e3da-745a-41de-9e77-9a3bc992e408.png)
+
+
